@@ -1,4 +1,5 @@
-This file contains the brroad road map for Git and Git hub commands
+This file contains the brroad road map for Git and Git hub commands:
+**Remember first to change your username and user email**
 git clone <--link-->
 git status (4 types of status :Untracked, Staged, Modified and )
 git add .
