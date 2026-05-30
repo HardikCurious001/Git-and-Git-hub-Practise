@@ -1,7 +1,7 @@
 This file contains the brroad road map for Git and Git hub commands:
 **Remember first to change your username and user email**
 Some terminal commands:
-"ls", "ls -a", "cd <--Some directory name to go to use tab key to suto complete the directory name-->" and "cd .. (To go back out of directory)"
+"ls", "ls -a", "clear", "cd <--Some directory name to go to use tab key to suto complete the directory name-->" and "cd .. (To go back out of directory)"
 Git Commands:
 git clone <--link-->
 # Now remember to change the directory after cloning
@@ -9,3 +9,6 @@ git status (4 types of status :Untracked, Staged, Modified and Unmodified)
 git add .
 git commit -m "--some message--"
 # Single command for add and commit is : git commit -am "--some message--"
+git log(To see activity of who and when he made commits)
+git reflog(In addition to log it will have log of merges, commits , checkouts and resets. It is useful if we by mistake deleted the commits while using the command: git reset --hard)
+git push origin main (To connect local repo to reote repo on web)
