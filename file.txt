@@ -1,9 +1,12 @@
 This file contains the broad road map for Git and Git hub commands:
 **Remember first to change your username and user email**
 Use commamnds: git config --global user.name "Hardik Yadav" and git config --global user.email "---@gmail.com" . To see the list use : "git config --list" .
-Some terminal commands:
+
+SOME TERMINAL COMMANDS:
 "ls", "ls -a", "clear", "cd <--Some directory name to go to use tab key to suto complete the directory name-->" and "cd .. (To go back out of directory)"
-Git Commands:
+
+GIT COMMANDS:--
+
 git clone <--link-->
 # Now remember to change the directory after cloning
 git status (4 types of status :Untracked, Staged, Modified and Unmodified)
@@ -21,6 +24,7 @@ Now simply use: git push
 If while using 'git push origin <--branch name-->' it lags or it does not pushes use the command 'git -c credential.helper= push origin main' and add a new password which is personal access token here
 
 GIT BRANCHS:
+
 1. git branch     (To check which branch)
 2. git branch <--Branch name-->    (To create a new branch)
 3. git branch -M main   (To rename branch)
@@ -29,7 +33,8 @@ GIT BRANCHS:
 6. git branch -d <--Branch name-->     (to delete a branch)
 7, git push origin <--Branch name-->.     (to push it to remote hub server)
 
-MERGING BRANCHES:
+MERGING BRANCHES:--
+
 Method 1: (On local system only)
 use: git diff <--other branch name-->   to compare this branch to other branch
 Then use: git merge <--branch name-->.    to merge the branch to the main
