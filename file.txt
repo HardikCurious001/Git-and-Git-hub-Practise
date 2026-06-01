@@ -17,6 +17,7 @@ git push origin main (To connect local repo to reote repo on web)
 git push -u origin main (-u - To set upstream)
 Now simply use: git push
 # In place of password use Personal Access Tokens
+
 If while using 'git push origin <--branch name-->' it lags or it does not pushes use the command 'git -c credential.helper= push origin main' and add a new password which is personal access token here
 
 GIT BRANCHS:
