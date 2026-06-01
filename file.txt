@@ -14,3 +14,5 @@ git reflog(In addition to log it will have log of merges, commits , checkouts an
 git push origin main (To connect local repo to reote repo on web)
 # Remember to delete the github access from Keychain access tokens and then make personal access token on GitHub and use them here on system
 # In place of password use Personal Access Tokens
+If while using 'git push origin <--branch name-->' it lags or it does not pushes use the command 'git -c credential.helper= push origin main' and add a new password which is personal access token here
+
