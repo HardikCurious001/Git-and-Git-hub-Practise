@@ -43,3 +43,16 @@ METHOD 2: (On GitHub via Pull request)
 Use: git push origin <--Branch name-->
 Then merge the two branches
 To pull back: git pull origin main
+
+UNDOING CHANGES:
+CASE 1: staged CHANGES
+git reset <--file name-->
+git reset 
+CASE 2: Commited changes (for many commits)
+git rset HEAD~1
+CASE 3: Commited change (for many commits)
+git reset <--commit hash number-->
+git reset --hard <--Commit hash number-->
+
+FORK:
+ROUGH COPY OF OTHER REPOSITORY
