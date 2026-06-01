@@ -35,4 +35,5 @@ Then use: git merge <--branch name-->.    to merge the branch to the main
 
 METHOD 2: (On GitHub via Pull request)
 Use: git push origin <--Branch name-->
+Then merge the two branches
 To pull back: git pull origin main
