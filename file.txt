@@ -8,7 +8,9 @@ git clone <--link-->
 git status (4 types of status :Untracked, Staged, Modified and Unmodified)
 git add .
 git commit -m "--some message--"
-# Single command for add and commit is : git commit -am "--some message--"
+# Single command for add and commit is : git commit -am "--some message--" (But this command works only for modified files not for new added untracked files)
 git log(To see activity of who and when he made commits)
 git reflog(In addition to log it will have log of merges, commits , checkouts and resets. It is useful if we by mistake deleted the commits while using the command: git reset --hard)
 git push origin main (To connect local repo to reote repo on web)
+# Remember to delete the github access from Keychain access tokens and then make personal access token on GitHub and use them here on system
+# In place of password use Personal Access Tokens
