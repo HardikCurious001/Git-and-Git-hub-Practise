@@ -14,5 +14,25 @@ git log(To see activity of who and when he made commits)
 git reflog(In addition to log it will have log of merges, commits , checkouts and resets. It is useful if we by mistake deleted the commits while using the command: git reset --hard)
 git push origin main (To connect local repo to reote repo on web)
 # Remember to delete the github access from Keychain access tokens and then make personal access token on GitHub and use them here on system
+git push -u origin main (-u - To set upstream)
+Now simply use: git push
 # In place of password use Personal Access Tokens
 If while using 'git push origin <--branch name-->' it lags or it does not pushes use the command 'git -c credential.helper= push origin main' and add a new password which is personal access token here
+
+GIT BRANCHS:
+1. git branch     (To check which branch)
+2. git branch <--Branch name-->    (To create a new branch)
+3. git branch -M main   (To rename branch)
+4. git chechout <--Branch name-->.   (To change and go to other branch)
+5. git ceckout -b <--Branch name-->.  (To create and checkout to that branch too)
+6. git branch -d <--Branch name-->     (to delete a branch)
+7, git push origin <--Branch name-->.     (to push it to remote hub server)
+
+MERGING BRANCHES:
+Method 1: (On local system only)
+use: git diff <--other branch name-->   to compare this branch to other branch
+Then use: git merge <--branch name-->.    to merge the branch to the main
+
+METHOD 2: (On GitHub via Pull request)
+Use: git push origin <--Branch name-->
+To pull back: git pull origin main
