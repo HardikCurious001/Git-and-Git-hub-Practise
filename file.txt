@@ -1,6 +1,9 @@
 This file contains the broad road map for Git and Git hub commands:
 **Remember first to change your username and user email**
 Use commamnds: git config --global user.name "Hardik Yadav" and git config --global user.email "---@gmail.com" . To see the list use : "git config --list" .
+Also use 'git config --global -e' to directly edit the file for Git
+Some other commands: git config --global core.editor "code --wait"
+git config --global core.autocrlf "input"
 
 SOME TERMINAL COMMANDS:
 "ls", "ls -a", "clear", "cd <--Some directory name to go to use tab key to suto complete the directory name-->" and "cd .. (To go back out of directory)"
